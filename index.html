@@ -45,36 +45,38 @@
 
 <body>
     <header>
-        <div class="bg-[#0675C1] text-white py-2">
-            <div class="flex justify-between max-w-6xl mx-auto">
-                <div class="">
-                    <p> <i class="fa-solid fa-phone"></i> <span class="font-semibold">+88 09613 441122</span></p>
-                </div>
-                <div class="space-x-4 text-xl">
-                    <i class="fa-brands fa-facebook"></i>
-                    <i class="fa-brands fa-youtube"></i>
-                    <i class="fa-brands fa-linkedin"></i>
-                    <i class="fa-brands fa-square-instagram"></i>
+        <div class="nav-container sticky">
+            <div class="bg-[#0675C1] text-white py-2">
+                <div class="flex justify-between max-w-6xl mx-auto">
+                    <div class="">
+                        <p> <i class="fa-solid fa-phone"></i> <span class="font-semibold">+88 09613 441122</span></p>
+                    </div>
+                    <div class="space-x-4 text-xl">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-square-instagram"></i>
+                    </div>
                 </div>
             </div>
+    
+            <nav class=" py-4 bg-[#f2f5fc]">
+                <div class="flex justify-between max-w-6xl mx-auto">
+                    <div>
+                        <h1 class="text-2xl font-bold text-common-color">Caretutors</h1>
+                    </div>
+    
+                    <div class="space-x-4 ">
+                        <button class="hover:text-[#0675C1]">Sign In</button>
+                        <button class="hover:text-[#0675C1]">Job Board</button>
+                        <button
+                            class="bg-common-color text-white p-2 rounded-md font-semibold border border-common-color hover:bg-inherit hover:text-common-color hover:border border-common-color duration-300 font-sm">
+                            Become a Tutor
+                        </button>
+                    </div>
+                </div>
+            </nav>
         </div>
-
-        <nav class=" py-4 bg-[#f2f5fc]">
-            <div class="flex justify-between max-w-6xl mx-auto">
-                <div>
-                    <h1 class="text-2xl font-bold text-common-color">Caretutors</h1>
-                </div>
-
-                <div class="space-x-4 ">
-                    <button class="hover:text-[#0675C1]">Sign In</button>
-                    <button class="hover:text-[#0675C1]">Job Board</button>
-                    <button
-                        class="bg-common-color text-white p-2 rounded-md font-semibold border border-common-color hover:bg-inherit hover:text-common-color hover:border border-common-color duration-300 font-sm">
-                        Become a Tutor
-                    </button>
-                </div>
-            </div>
-        </nav>
 
         <div class="banner max-w-6xl mx-auto">
             <div class="flex justify-between items-center ">
@@ -190,24 +192,143 @@
 
             <div class="content max-w-6xl mx-auto py-12">
                 <div class="carousel w-full">
-                    <div id="item1" class="carousel-item w-full">
-                        <div class="card card-compact w-56 bg-base-100">
-                            <figure><img class="w-40"
-                                    src="https://img.freepik.com/premium-vector/islamic-character-reading-quran-koran_188398-38.jpg"
-                                    alt="Shoes" /></figure>
-                            <div class="card-body text-center">
-                                <h2 class="card-title text-center">Religious Studies</h2>
+                    <div id="item1" class="carousel-item w-full grid grid-cols-4 gap-12">
+                        <div class="bg-white items-center rounded-md p-2 shadow-xl">
+                            <div class="w-56 h-64 relative">
+                                <img class="w-56 absolute my-auto" src="https://img.freepik.com/premium-vector/islamic-character-reading-quran-koran_188398-38.jpg" alt="" srcset="">
+                            </div>
+                            <div>
+                                <h1 class="text-center font-medium">Religious Studies</h1>
+                            </div>
+                        </div>
+                        <div class="bg-white items-center rounded-md p-2 shadow-xl">
+                            <div class="w-56 h-64 relative">
+                                <img class="w-56 absolute my-auto" src="https://img.freepik.com/premium-vector/islamic-character-reading-quran-koran_188398-38.jpg" alt="" srcset="">
+                            </div>
+                            <div>
+                                <h1 class="text-center font-medium">Religious Studies</h1>
+                            </div>
+                        </div>
+                        <div class="bg-white items-center rounded-md p-2 shadow-xl">
+                            <div class="w-56 h-64 relative">
+                                <img class="w-56 absolute my-auto" src="https://img.freepik.com/premium-vector/islamic-character-reading-quran-koran_188398-38.jpg" alt="" srcset="">
+                            </div>
+                            <div>
+                                <h1 class="text-center font-medium">Religious Studies</h1>
+                            </div>
+                        </div>
+                        <div class="bg-white items-center rounded-md p-2 shadow-xl">
+                            <div class="w-56 h-64 relative">
+                                <img class="w-56 absolute my-auto" src="https://img.freepik.com/premium-vector/islamic-character-reading-quran-koran_188398-38.jpg" alt="" srcset="">
+                            </div>
+                            <div>
+                                <h1 class="text-center font-medium">Religious Studies</h1>
                             </div>
                         </div>
                     </div>
-                    <div id="item2" class="carousel-item w-full">
-                        <img src="/images/stock/photo-1609621838510-5ad474b7d25d.jpg" class="w-full" />
+
+                    <div id="item2" class="carousel-item w-full grid grid-cols-4 gap-12">
+                        <div class="bg-white items-center rounded-md p-2 shadow-xl">
+                            <div class="w-56 h-64 relative">
+                                <img class="w-56 absolute my-auto" src="https://img.freepik.com/premium-vector/islamic-character-reading-quran-koran_188398-38.jpg" alt="" srcset="">
+                            </div>
+                            <div>
+                                <h1 class="text-center font-medium">Religious Studies</h1>
+                            </div>
+                        </div>
+                        <div class="bg-white items-center rounded-md p-2 shadow-xl">
+                            <div class="w-56 h-64 relative">
+                                <img class="w-56 absolute my-auto" src="https://img.freepik.com/premium-vector/islamic-character-reading-quran-koran_188398-38.jpg" alt="" srcset="">
+                            </div>
+                            <div>
+                                <h1 class="text-center font-medium">Religious Studies</h1>
+                            </div>
+                        </div>
+                        <div class="bg-white items-center rounded-md p-2 shadow-xl">
+                            <div class="w-56 h-64 relative">
+                                <img class="w-56 absolute my-auto" src="https://img.freepik.com/premium-vector/islamic-character-reading-quran-koran_188398-38.jpg" alt="" srcset="">
+                            </div>
+                            <div>
+                                <h1 class="text-center font-medium">Religious Studies</h1>
+                            </div>
+                        </div>
+                        <div class="bg-white items-center rounded-md p-2 shadow-xl">
+                            <div class="w-56 h-64 relative">
+                                <img class="w-56 absolute my-auto" src="https://img.freepik.com/premium-vector/islamic-character-reading-quran-koran_188398-38.jpg" alt="" srcset="">
+                            </div>
+                            <div>
+                                <h1 class="text-center font-medium">Religious Studies</h1>
+                            </div>
+                        </div>
                     </div>
-                    <div id="item3" class="carousel-item w-full">
-                        <img src="/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full" />
+
+                    <div id="item3" class="carousel-item w-full grid grid-cols-4 gap-12">
+                        <div class="bg-white items-center rounded-md p-2 shadow-xl">
+                            <div class="w-56 h-64 relative">
+                                <img class="w-56 absolute my-auto" src="https://img.freepik.com/premium-vector/islamic-character-reading-quran-koran_188398-38.jpg" alt="" srcset="">
+                            </div>
+                            <div>
+                                <h1 class="text-center font-medium">Religious Studies</h1>
+                            </div>
+                        </div>
+                        <div class="bg-white items-center rounded-md p-2 shadow-xl">
+                            <div class="w-56 h-64 relative">
+                                <img class="w-56 absolute my-auto" src="https://img.freepik.com/premium-vector/islamic-character-reading-quran-koran_188398-38.jpg" alt="" srcset="">
+                            </div>
+                            <div>
+                                <h1 class="text-center font-medium">Religious Studies</h1>
+                            </div>
+                        </div>
+                        <div class="bg-white items-center rounded-md p-2 shadow-xl">
+                            <div class="w-56 h-64 relative">
+                                <img class="w-56 absolute my-auto" src="https://img.freepik.com/premium-vector/islamic-character-reading-quran-koran_188398-38.jpg" alt="" srcset="">
+                            </div>
+                            <div>
+                                <h1 class="text-center font-medium">Religious Studies</h1>
+                            </div>
+                        </div>
+                        <div class="bg-white items-center rounded-md p-2 shadow-xl">
+                            <div class="w-56 h-64 relative">
+                                <img class="w-56 absolute my-auto" src="https://img.freepik.com/premium-vector/islamic-character-reading-quran-koran_188398-38.jpg" alt="" srcset="">
+                            </div>
+                            <div>
+                                <h1 class="text-center font-medium">Religious Studies</h1>
+                            </div>
+                        </div>
                     </div>
-                    <div id="item4" class="carousel-item w-full">
-                        <img src="/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" class="w-full" />
+                    <div id="item4" class="carousel-item w-full grid grid-cols-4 gap-12">
+                        <div class="bg-white items-center rounded-md p-2 shadow-xl">
+                            <div class="w-56 h-64 relative">
+                                <img class="w-56 absolute my-auto" src="https://img.freepik.com/premium-vector/islamic-character-reading-quran-koran_188398-38.jpg" alt="" srcset="">
+                            </div>
+                            <div>
+                                <h1 class="text-center font-medium">Religious Studies</h1>
+                            </div>
+                        </div>
+                        <div class="bg-white items-center rounded-md p-2 shadow-xl">
+                            <div class="w-56 h-64 relative">
+                                <img class="w-56 absolute my-auto" src="https://img.freepik.com/premium-vector/islamic-character-reading-quran-koran_188398-38.jpg" alt="" srcset="">
+                            </div>
+                            <div>
+                                <h1 class="text-center font-medium">Religious Studies</h1>
+                            </div>
+                        </div>
+                        <div class="bg-white items-center rounded-md p-2 shadow-xl">
+                            <div class="w-56 h-64 relative">
+                                <img class="w-56 absolute my-auto" src="https://img.freepik.com/premium-vector/islamic-character-reading-quran-koran_188398-38.jpg" alt="" srcset="">
+                            </div>
+                            <div>
+                                <h1 class="text-center font-medium">Religious Studies</h1>
+                            </div>
+                        </div>
+                        <div class="bg-white items-center rounded-md p-2 shadow-xl">
+                            <div class="w-56 h-64 relative">
+                                <img class="w-56 absolute my-auto" src="https://img.freepik.com/premium-vector/islamic-character-reading-quran-koran_188398-38.jpg" alt="" srcset="">
+                            </div>
+                            <div>
+                                <h1 class="text-center font-medium">Religious Studies</h1>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="flex justify-center w-full py-2 gap-2">
