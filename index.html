@@ -16,6 +16,11 @@
     <!-- font awesome link here -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
+    <!-- google font link here -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+
 
     <script>
         tailwind.config = {
@@ -29,6 +34,13 @@
             }
         }
     </script>
+
+    <!-- custom css -->
+    <style>
+        .font-lato {
+            font-family: 'Lato', sans-serif;
+        }
+    </style>
 </head>
 
 <body>
@@ -36,7 +48,7 @@
         <div class="bg-[#0675C1] text-white py-2">
             <div class="flex justify-between max-w-6xl mx-auto">
                 <div class="">
-                    <p> <i class="fa-solid fa-phone"></i> +88 09613 441122</p>
+                    <p> <i class="fa-solid fa-phone"></i> <span class="font-semibold">+88 09613 441122</span></p>
                 </div>
                 <div class="space-x-4 text-xl">
                     <i class="fa-brands fa-facebook"></i>
@@ -74,10 +86,12 @@
                             class="bg-common-color text-white p-2 rounded-md font-semibold border border-common-color hover:bg-inherit hover:text-common-color hover:border border-common-color duration-300 font-sm">Hire
                             a Tutor (It's Free!)</button>
                     </div>
-                    <p class="text-sm py-2">Want to become a Tutor? <span class="text-common-color font-medium"><a href="">Sign Up</a></span> now</p>
+                    <p class="text-sm py-2">Want to become a Tutor? <span class="text-common-color font-medium"><a
+                                href="">Sign Up</a></span> now</p>
                 </div>
                 <div>
-                    <img class="" src="https://png.pngtree.com/png-vector/20220630/ourmid/pngtree-online-tutor-abstract-concept-vector-illustration-png-image_5644395.png"
+                    <img class=""
+                        src="https://png.pngtree.com/png-vector/20220630/ourmid/pngtree-online-tutor-abstract-concept-vector-illustration-png-image_5644395.png"
                         alt="" srcset="">
                 </div>
             </div>
@@ -86,11 +100,42 @@
 
 
     <main class="bg-[#f2f5fc]">
-        <div class="content">
+        <div class="content max-w-6xl mx-auto">
             <div>
-                <h1>Tuition Types</h1>
-                <div>
-                    
+                <h1 class="text-center">Tuition Types</h1>
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="flex items-center p-4 space-x-4 border border-common-color rounded-md">
+                        <i class="fa-solid fa-person-chalkboard text-7xl"></i>
+                        <div>
+                            <h1 class="text-2xl font-semibold text-common-color">Home Tutoring</h1>
+                            <p class="text-gray-500">Home tutoring allows students to learn various subjects in their
+                                own home. </p>
+                        </div>
+                    </div>
+                    <div class="flex items-center p-4 space-x-4 border border-common-color rounded-md">
+                        <i class="fa-solid fa-person-chalkboard text-7xl"></i>
+                        <div>
+                            <h1 class="text-2xl font-semibold text-common-color">Home Tutoring</h1>
+                            <p class="text-gray-500">Home tutoring allows students to learn various subjects in their
+                                own home. </p>
+                        </div>
+                    </div>
+                    <div class="flex items-center p-4 space-x-4 border border-common-color rounded-md">
+                        <i class="fa-solid fa-person-chalkboard text-7xl"></i>
+                        <div>
+                            <h1 class="text-2xl font-semibold text-common-color">Home Tutoring</h1>
+                            <p class="text-gray-500">Home tutoring allows students to learn various subjects in their
+                                own home. </p>
+                        </div>
+                    </div>
+                    <div class="flex items-center p-4 space-x-4 border border-common-color rounded-md">
+                        <i class="fa-solid fa-person-chalkboard text-7xl"></i>
+                        <div>
+                            <h1 class="text-2xl font-semibold text-common-color">Home Tutoring</h1>
+                            <p class="text-gray-500">Home tutoring allows students to learn various subjects in their
+                                own home. </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
